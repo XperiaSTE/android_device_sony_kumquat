@@ -39,10 +39,6 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/prebuilt/bootanimation.zip:system/media/bootanimation.zip
 $(call inherit-product, $(LOCAL_PATH)/prebuilt/resources-480x854.mk)
 
-# TWRP
-PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/config/twrp.fstab:recovery/root/etc/twrp.fstab
-
 # Device specific USB configuration script
 PRODUCT_COPY_FILES += $(LOCAL_PATH)/config/init.st-ericsson.usb.rc:root/init.st-ericsson.usb.rc
 
