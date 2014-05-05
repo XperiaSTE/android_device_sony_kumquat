@@ -39,8 +39,7 @@ PRODUCT_COPY_FILES += \
 
 # Device specific bootlogo, bootanimation and charging animation
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/prebuilt/logo-480x854.rle:root/logo.rle \
-	$(LOCAL_PATH)/prebuilt/bootanimation.zip:system/media/bootanimation.zip
+	$(LOCAL_PATH)/prebuilt/logo-480x854.rle:root/logo.rle
 $(call inherit-product, $(LOCAL_PATH)/prebuilt/resources-480x854.mk)
 
 # Device specific USB configuration script
