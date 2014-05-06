@@ -22,14 +22,20 @@
 #
 #
 
-# Inherit from AOSP
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+# Inherit APNs list
+$(call inherit-product, vendor/omni/config/gsm.mk)
+
+# Inherit from the common Open Source product configuration
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
+
+# Inherit from our custom product configuration
+$(call inherit-product, vendor/omni/config/common.mk)
 
 # Inherit from device
 $(call inherit-product, device/sony/kumquat/kumquat.mk)
 
 # Set correct device informations
-PRODUCT_NAME := full_kumquat
+PRODUCT_NAME := omni_kumquat
 PRODUCT_DEVICE := kumquat
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
