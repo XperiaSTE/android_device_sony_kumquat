@@ -275,4 +275,7 @@
 	 scaled proportionally to the smaller buckets. 0 keeps the default. -->
     <integer name="config_lowMemoryKillerMinFreeKbytesAdjust">0</integer>
 
+    <!-- Enable lockscreen translucent decor -->
+    <bool name="config_enableLockScreenTranslucentDecor">true</bool>
+
 </resources>
