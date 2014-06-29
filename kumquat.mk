@@ -102,3 +102,6 @@ PRODUCT_PROPERTY_OVERRIDES += otaupdater.otaid=buildid
 PRODUCT_PROPERTY_OVERRIDES += otaupdater.otaver=buildver
 PRODUCT_PROPERTY_OVERRIDES += otaupdater.otatime=buildtime
 PRODUCT_PACKAGES += OTAUpdater
+
+# Genfstab
+PRODUCT_PACKAGES += genfstab
