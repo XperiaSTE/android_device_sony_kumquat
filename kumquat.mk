@@ -96,8 +96,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.hwui.path_cache_size=2 \
   ro.sf.lcd_density=240 \
   ro.config.low_ram=true
-
-# OpenDelta
-PRODUCT_PROPERTY_OVERRIDES += ro.cm.version=1.0
-PRODUCT_PROPERTY_OVERRIDES += ro.cm.device=kumquat
-PRODUCT_PACKAGES += OpenDelta
