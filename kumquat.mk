@@ -98,6 +98,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.config.low_ram=true
 
 # OpenDelta
-PRODUCT_PROPERTY_OVERRIDES += ro.delta.version=1.0
-PRODUCT_PROPERTY_OVERRIDES += ro.delta.device=kumquat
+PRODUCT_PROPERTY_OVERRIDES += ro.cm.version=1.0
+PRODUCT_PROPERTY_OVERRIDES += ro.cm.device=kumquat
 PRODUCT_PACKAGES += OpenDelta
