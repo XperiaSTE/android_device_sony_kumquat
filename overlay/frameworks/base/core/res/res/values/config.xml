@@ -203,9 +203,6 @@
     <!-- Disable lockscreen translucent decor by default -->
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
 
-    <!--  Maximum number of supported users -->
-    <integer name="config_multiuserMaximumUsers">3</integer>
-
     <!-- Device supports LED flashlight -->
     <bool name="config_enableTorch">true</bool>
 
