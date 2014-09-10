@@ -22,5 +22,10 @@ on boot
 
 # Sony Illumination Service
 service illumination /system/bin/illumination_service
-    class main
+    class late_start
     user root
+
+# Illumination Fix
+service led_fix /system/bin/led_fix.sh
+	class main
+	oneshot
